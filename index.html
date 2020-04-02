@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallels</title>
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    
+</head>
+<body>
+    <div class="wrap">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+        <div class="header" id="top_nav">
+                    <div class="logo">
+                        <img class="logo__img" src="img/Circle.png" alt="logo">Parallels
+                    </div>
+                    <div class="burger__wrap">
+                        <div class="burger"></div>
+                    </div>
+                    <div class="menu__wrap hide">                        
+                        <ul class="header__menu">
+                            <li class="header__link"><a href="#">Home</a></li>
+                            <li class="header__link"><a href="#services">Services</a></li>
+                            <li class="header__link"><a href="#portfolio">Portfolio</a></li>
+                            <li class="header__link"><a href="#pricing">Pricing</a></li>
+                            <li class="header__link"><a href="#about">About</a></li>
+                            <li class="header__link"><a href="#contacts">Contacts</a></li>
+                        </ul>
+                    </div>
+        </div>
+        
+        <div class="banner slider" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+            <div class="slide">
+                <div class="banner__text">
+                    <h1 class="banner__title">Welcome to Parallels</h1>
+                    <h2 class="banner__subtitle">Clean Responsive Parallax Theme</h2>
+                </div>
+            </div>
+            <div class="slide slide_1">
+                <div class="banner__text">
+                    <h1 class="banner__title">Let's start it</h1>
+                    <h2 class="banner__subtitle">Go to the link</h2>
+                </div>
+            </div>   
+            <div class="slide slide_2">
+                <div class="banner__text">
+                    <h1 class="banner__title">Theme for your website</h1>
+                </div>
+            </div>        
+        </div>
+
+        <div class="services" id="services">
+            <div class="services__title">Our Services</div>
+            <div class="services__content">
+                <div class="services__card">
+                    <img class="services__img" src="./img/services_wd.png" alt="card1">
+                    <div class="card__title">
+                        WebDesign
+                    </div>
+                    <div class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu varius dui. Nunc id scelerisque ligula. 
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <img class="services__img" src="./img/services_uid.png" alt="card1">
+                    <div class="card__title">
+                        UIDesign
+                    </div>
+                    <div class="card__text">                        
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <img class="services__img" src="./img/services_proto.png" alt="card1">
+                    <div class="card__title">
+                        Prototype 
+                    </div>
+                    <div class="card__text">   
+                        Sed vestibulum mi quis est lacinia tempor. Praesent vitae commodo tellus. Cras eu est sem.
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <img class="services__img" src="./img/services_photo.png" alt="card1">
+                    <div class="card__title">
+                        Photography
+                    </div>
+                    <div class="card__text">
+                        Donec tempus lacinia purus ut tincidunt. Nunc vel feugiat leo. Nunc iaculis hendrerit gravida.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="poll">
+            <div class="poll__title">Do you like this clean theme?</div>
+            <div class="poll__btns">
+                <button class="btn btn-yellow">Purchaise</button>
+                <button class="btn btn-blue">Follow</button>
+            </div>
+        </div>
+
+        <div class="portfolio" id="portfolio">
+            <div class="portfolio__title">Portfolio</div>
+            <div class="portfolio__tabs">               
+                <ul class="tabs__caption">
+                    <li class="tab-active">Web-design</li>
+                    <li>UI Design</li>
+                    <li>Prototype</li>
+                    <li>Photography</li>
+                </ul>
+
+                    <div class="tabs__content tab-active">
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images" id="single_image" href="./img/gallery/web-design/1_big.jpg"><img src="./img/gallery/web-design/1.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images" id="single_image" href="./img/gallery/web-design/2_big.jpg"><img src="./img/gallery/web-design/2.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images" id="single_image" href="./img/gallery/web-design/1_big.jpg"><img src="./img/gallery/web-design/3.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images" id="single_image" href="./img/gallery/web-design/4_big.jpg"><img src="./img/gallery/web-design/4.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images" id="single_image" href="./img/gallery/web-design/5_big.jpg"><img src="./img/gallery/web-design/5.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images" id="single_image" href="./img/gallery/web-design/6_big.jpg"><img src="./img/gallery/web-design/6.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images" id="single_image" href="./img/gallery/web-design/7_big.jpg"><img src="./img/gallery/web-design/7.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images" id="single_image" href="./img/gallery/web-design/8_big.jpg"><img src="./img/gallery/web-design/8.jpg" alt=""/></a>
+                        </div>                        
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_2" id="single_image" href="./img/gallery/ui/1_big.jpg"><img src="./img/gallery/ui/1.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_2" id="single_image" href="./img/gallery/ui/2_big.jpg"><img src="./img/gallery/ui/2.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_2" id="single_image" href="./img/gallery/ui/1_big.jpg"><img src="./img/gallery/ui/3.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_2" id="single_image" href="./img/gallery/ui/4_big.jpg"><img src="./img/gallery/ui/4.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_2" id="single_image" href="./img/gallery/ui/5_big.jpg"><img src="./img/gallery/ui/5.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_2" id="single_image" href="./img/gallery/ui/6_big.jpg"><img src="./img/gallery/ui/6.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_2" id="single_image" href="./img/gallery/ui/7_big.jpg"><img src="./img/gallery/ui/7.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_2" id="single_image" href="./img/gallery/ui/8_big.jpg"><img src="./img/gallery/ui/8.jpg" alt=""/></a>
+                        </div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_3" id="single_image" href="./img/gallery/prototype/4_big.jpg"><img src="./img/gallery/prototype/4.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_3" id="single_image" href="./img/gallery/prototype/3_big.jpg"><img src="./img/gallery/prototype/3.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_3" id="single_image" href="./img/gallery/prototype/2_big.jpg"><img src="./img/gallery/prototype/2.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_3" id="single_image" href="./img/gallery/prototype/1_big.jpg"><img src="./img/gallery/prototype/1.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_3" id="single_image" href="./img/gallery/prototype/8_big.jpg"><img src="./img/gallery/prototype/8.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_3" id="single_image" href="./img/gallery/prototype/7_big.jpg"><img src="./img/gallery/prototype/7.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_3" id="single_image" href="./img/gallery/prototype/6_big.jpg"><img src="./img/gallery/prototype/6.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group" data-fancybox="images_3" id="single_image" href="./img/gallery/prototype/5_big.jpg"><img src="./img/gallery/prototype/5.jpg" alt=""/></a>
+                        </div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__card">
+                            <a rel="group_4" data-fancybox="images_4" id="single_image" href="./img/gallery/photography/1_big.jpg"><img src="./img/gallery/photography/1.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group_4" data-fancybox="images_4" id="single_image" href="./img/gallery/photography/2_big.jpg"><img src="./img/gallery/photography/2.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group_4" data-fancybox="images_4" id="single_image" href="./img/gallery/photography/1_big.jpg"><img src="./img/gallery/photography/3.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group_4" data-fancybox="images_4" id="single_image" href="./img/gallery/photography/4_big.jpg"><img src="./img/gallery/photography/4.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group_4" data-fancybox="images_4" id="single_image" href="./img/gallery/photography/5_big.jpg"><img src="./img/gallery/photography/5.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group_4" data-fancybox="images_4" id="single_image" href="./img/gallery/photography/6_big.jpg"><img src="./img/gallery/photography/6.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group_4" data-fancybox="images_4" id="single_image" href="./img/gallery/photography/7_big.jpg"><img src="./img/gallery/photography/7.jpg" alt=""/></a>
+                        </div>
+                        <div class="tabs__card">
+                            <a rel="group_4" data-fancybox="images_4" id="single_image" href="./img/gallery/photography/8_big.jpg"><img src="./img/gallery/photography/8.jpg" alt=""/></a>
+                        </div>                        
+                    </div>                    
+            </div>
+        </div>
+
+        <div class="information">
+            <div class="information__title">Pricing table</div>
+            <div class="information__subtitle">
+                Clean beautiful flat table
+            </div>
+        </div>
+
+        <div class="pricing" id="pricing">
+            <div class="pricing__title">Our price</div>
+            <div class="pricing__main">
+                <div class="service__card service__card-dark">
+                    <div class="service__title">Website hosting</div>
+                    <div class="service__price">$10/month</div>
+                    <div class="service__options">
+                        <div class="service__option"><span>2x</span> option 1</div>
+                        <div class="service__option"><span>Free</span> option 2</div>
+                        <div class="service__option"><span>Unlimited</span> option 3</div>
+                        <div class="service__option"><span>Unlimited</span> option 4</div>
+                        <div class="service__option"><span>1x</span> option 5</div>
+                    </div>
+                    <button class="btn btn-yellow">Purchaise</button>
+                </div>
+                <div class="service__card service__card-light">
+                    <div class="service__title">Reseller cloud</div>
+                    <div class="service__price">$135/month</div>
+                    <div class="service__options">
+                        <div class="service__option"><span>5x</span> option 1</div>
+                        <div class="service__option"><span>Free</span> option 2</div>
+                        <div class="service__option"><span>Unlimited</span> option 3</div>
+                        <div class="service__option"><span>Unlimited</span> option 4</div>
+                        <div class="service__option"><span>5x</span> option 5</div>
+                    </div>
+                    <button class="btn btn-yellow">Purchaise</button>
+                </div>
+                <div class="service__card service__card-dark">
+                    <div class="service__title">Dedicated hosting</div>
+                    <div class="service__price">$275/month</div>
+                    <div class="service__options">
+                        <div class="service__option"><span>10x</span> option 1</div>
+                        <div class="service__option"><span>Free</span> option 2</div>
+                        <div class="service__option"><span>Unlimited</span> option 3</div>
+                        <div class="service__option"><span>Unlimited</span> option 4</div>
+                        <div class="service__option"><span>10x</span> option 5</div>
+                    </div>
+                    <button class="btn btn-yellow">Purchaise</button>
+                </div>
+            </div>
+            <div class="pricing__secondary">
+                <div class="service__card service__card-light">
+                    <div class="service__title">Website hosting</div>
+                    <div class="service__price _dark">$10/month</div>
+                    <div class="service__options">
+                        <div class="service__option"><span>5x</span> option 1</div>
+                        <div class="service__option"><span>Free</span> option 2</div>
+                        <div class="service__option"><span>Unlimited</span> option 3</div>
+                        <div class="service__option"><span>Unlimited</span> option 4</div>
+                        <div class="service__option"><span>5x</span> option 5</div>
+                    </div>
+                    <button class="btn btn-light">Purchaise</button>
+                </div>
+                <div class="service__card service__card-light">
+                    <div class="service__title">Reseller cloud</div>
+                    <div class="service__price _lightBlue">$135/month</div>
+                    <div class="service__options">
+                        <div class="service__option"><span>2x</span> option 1</div>
+                        <div class="service__option"><span>Free</span> option 2</div>
+                        <div class="service__option"><span>Unlimited</span> option 3</div>
+                        <div class="service__option"><span>Unlimited</span> option 4</div>
+                        <div class="service__option"><span>5x</span> option 5</div>
+                    </div>
+                    <button class="btn btn-lightBlue">Purchaise</button>
+                </div>
+                <div class="service__card service__card-light">
+                    <div class="service__title">Dedicated hosting</div>
+                    <div class="service__price _lightYellow">$235/month</div>
+                    <div class="service__options">
+                        <div class="service__option"><span>5x</span> option 1</div>
+                        <div class="service__option"><span>Free</span> option 2</div>
+                        <div class="service__option"><span>Unlimited</span> option 3</div>
+                        <div class="service__option"><span>Unlimited</span> option 4</div>
+                        <div class="service__option"><span>5x</span> option 5</div>
+                    </div>
+                    <button class="btn btn-lightYellow">Purchaise</button>
+                </div>
+                <div class="service__card service__card-light">
+                    <div class="service__title">Reseller cloud</div>
+                    <div class="service__price _light">$135/month</div>
+                    <div class="service__options">
+                        <div class="service__option"><span>1x</span> option 1</div>
+                        <div class="service__option"><span>Free</span> option 2</div>
+                        <div class="service__option"><span>Unlimited</span> option 3</div>
+                        <div class="service__option"><span>Unlimited</span> option 4</div>
+                        <div class="service__option"><span>2x</span> option 5</div>
+                    </div>
+                    <button class="btn btn-dark">Purchaise</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews" id="reviews">
+            <div class="reviews__wrap">
+                <div class="reviews__title">Clients about us</div>
+                <div class="slider-reviews">
+                    <div class="reviews__content">
+                        <div class="reviews__text">
+                            Donec leo elit, dignissim eu elit vitae, aliquam tincidunt purus. Proin id risus ut sem vehicula faucibus. Fusce sed libero nec quam tempus facilisis. Vestibulum venenatis nisl ac feugiat aliquet. Sed euismod ligula arcu, et mollis est volutpat et. Aenean sed nulla placerat neque lacinia ullamcorper.
+                        </div>
+                        <div class="reviews__author">#PERRY MALITON</div>
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">
+                            Donec leo elit, dignissim eu elit vitae, aliquam tincidunt purus. Proin id risus ut sem vehicula faucibus. Fusce sed libero nec quam tempus facilisis. Vestibulum venenatis nisl ac feugiat aliquet. Sed euismod ligula arcu, et mollis est volutpat et. Aenean sed nulla placerat neque lacinia ullamcorper.
+                        </div>
+                        <div class="reviews__author">#JOE DALEN</div>
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">
+                            Donec leo elit, dignissim eu elit vitae, aliquam tincidunt purus. Proin id risus ut sem vehicula faucibus. Fusce sed libero nec quam tempus facilisis. Vestibulum venenatis nisl ac feugiat aliquet. Sed euismod ligula arcu, et mollis est volutpat et. Aenean sed nulla placerat neque lacinia ullamcorper.
+                        </div>
+                        <div class="reviews__author">#JACK RUNER</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="information">
+            <div class="information__title">Our team</div>
+            <div class="information__subtitle">
+                We a professional and progressive team
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <div class="about__title">About us</div>
+            <div class="about__cards">
+                <div class="about__card">
+                    <img src="./img/Photo1.png" alt="">
+                    <div class="card__title">Mark Cream</div>
+                    <div class="card__subtitle">Developer</div>
+                    <div class="card__text">Curabitur congue libero mi, et lacinia sem blandit sit amet. Donec eu mi non magna rhoncus bibendum et eu dui. Nunc iaculis placerat sapien vel imperdiet.</div>
+                </div>
+                <div class="about__card">
+                    <img src="./img/Photo2.png" alt="">
+                    <div class="card__title">Antonio Paramo</div>
+                    <div class="card__subtitle">Fire Effects</div>
+                    <div class="card__text">                        
+                        Etiam pulvinar libero et scelerisque cursus. Sed eu nisl congue, gravida urna imperdiet, laoreet dolor. Morbi adipiscing neque erat, tincidunt 
+                        porttitor est vestibulum ac.
+                    </div>
+                </div>
+                <div class="about__card">
+                    <img src="./img/Photo3.png" alt="">
+                    <div class="card__title">Mario Ballote</div>
+                    <div class="card__subtitle">Big Boss</div>
+                    <div class="card__text">Donec at pulvinar dolor, et lobortis est. Phasellus nibh nisi, blandit non velit sit amet, pulvinar vehicula nulla.</div>
+                </div>
+                <div class="about__card">
+                    <img src="./img/Photo4.png" alt="">
+                    <div class="card__title">Ben Bugatton</div>
+                    <div class="card__subtitle">Designer</div>
+                    <div class="card__text">Mauris dignissim felis quis justo 
+                        malesuada gravida. Sed quis neque condimentum, luctus augue in, dapibus sapien.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="information">
+            <div class="information__title">You looked OVER 6000&nbsppx</div>
+            <div class="information__subtitle">
+                That’s Great!
+            </div>
+        </div>
+
+        <div class="contacts" id="contacts">
+            <div class="contacts__title">Contact us</div>
+            <div class="contacts__wrap">
+                <form class="contacts__form" method="POST" action="#">
+                    <div class="form__title">Mail</div>
+                    <button class="btn btn-blue">Submit mail</button>
+                </form>
+
+                <div class="contacts__info">
+                    <div class="info__title">More info</div>
+                    <button class="btn btn-blue">Purchaise</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/libs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/tabs.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
